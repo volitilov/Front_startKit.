@@ -1,0 +1,49 @@
+{
+  "name": "Front_startKit.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:volitilov/Front_startKit..git",
+  "author": "volitilov <volitilov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.1",
+    "del": "^3.0.0",
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-flowtype": "^1.0.0",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1",
+    "sinon-chai": "^2.13.0",
+    "webpack-stream": "^4.0.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "graceful-fs": "^4.1.11",
+    "immutable": "^3.8.1",
+    "minimatch": "^3.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.2.1",
+    "redux-immutable": "^4.0.0"
+  }
+}
